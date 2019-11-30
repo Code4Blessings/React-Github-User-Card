@@ -76,9 +76,10 @@ body {
 }
 
 .header h1 {
-  font-size: 48px;
+  font-size: 55px;
   text-transform: uppercase;
   text-align: center;
+  font-weight: bold;
 }
 
 .cards {
