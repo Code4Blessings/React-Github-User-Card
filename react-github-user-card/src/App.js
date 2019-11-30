@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import UserInfo from './components/UserInfo';
 import './App.css';
 
 class App extends Component {
@@ -14,6 +15,7 @@ class App extends Component {
         <div className="header">
           <h1>React <span role="img" aria-label="heart">💗's</span>  Github</h1>
         </div>
+        <UserInfo />
       </div>
     );
   }
