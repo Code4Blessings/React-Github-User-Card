@@ -15,10 +15,10 @@ Commit your code regularly and meaningfully. This helps both you and your team l
 - [X] Create a forked copy of this project.
 - [ ] Add your team lead as collaborator on Github.
 - [X] Clone your OWN version of the repository in your terminal
-- [ ] Use CRA to create a new React app in this repository
+- [X] Use CRA to create a new React app in this repository
 - [X] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [X] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
 
@@ -29,9 +29,9 @@ Follow these steps for completing your project.
 
 ## Minimum Viable Product
 
-- [ ] Fetch data from the Github API for a Github user
-- [ ] Display the user data on the DOM
-- [ ] Use class components when you need to hold any state or use any lifecycle methods
+- [X] Fetch data from the Github API for a Github user
+- [X] Display the user data on the DOM
+- [X] Use class components when you need to hold any state or use any lifecycle methods
 
 ## Planning your App
 
