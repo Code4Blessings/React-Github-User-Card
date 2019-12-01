@@ -1,21 +1,24 @@
 import React from 'react';
-import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle
-} from 'reactstrap';
+import "./UserCard.css"
+import Styled from "styled-components";
 
 const UserCard = (props) => {
   return (
-    <div>
-      <Card>
-        <CardImg top width="100%" src={props.image} alt="Card image cap" />
-        <CardBody>
-          <CardTitle>{props.name}</CardTitle>
-          <CardSubtitle> {props.bio}</CardSubtitle>
-          <CardText>{`Location: ${props.location}`}</CardText>
-          <CardText>{`Followers: ${props.followers}`}</CardText>
-          <CardText>{`Following: ${props.following}`}</CardText>
-        </CardBody>
-      </Card>
-    </div>
+    <div className="card">
+      <img src={props.image} alt="user" />
+      <div className="card-info">
+        <p>{props.name}</p>
+        <p className="username">{props.username}</p>
+        <p>{`Location: ${props.location}`}</p>
+        <p>Profile:  
+          <a href={props.gitaddress}>{props.gitaddress}</a>
+        </p>
+        <p>{`Followers: ${props.followers}`}</p>
+        <p>{`Following: ${props.following}`}</p>
+        <p>{`Bio: ${props.bio}`}</p>
+      </div>
+  </div>
+
   );
 };
 

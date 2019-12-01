@@ -29,9 +29,12 @@ class UserInfo extends Component {
                 <UserCard 
                 image={this.state.userData.avatar_url} 
                 name={this.state.userData.name} 
+                username={this.state.userData.login}
                 location={this.state.userData.location} 
+                gitaddress={this.state.userData.html_url}
                 followers={this.state.userData.followers} 
-                following={this.state.userData.following} />
+                following={this.state.userData.following} 
+                bio={this.state.userData.bio} />
             </div>
         );
     }
