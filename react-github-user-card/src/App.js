@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import UserInfo from './components/UserInfo';
 import './App.css';
+import FollowerList from './components/FollowerList';
 
 class App extends Component {
   constructor() {
@@ -16,6 +17,7 @@ class App extends Component {
           <h1>React <span role="img" aria-label="heart">💗's</span>  Github</h1>
         </div>
         <UserInfo />
+        <FollowerList />
       </div>
     );
   }
