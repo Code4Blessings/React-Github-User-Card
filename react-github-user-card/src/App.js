@@ -16,8 +16,12 @@ class App extends Component {
         <div className="header">
           <h1>React <span role="img" aria-label="heart">💗's</span>  Github</h1>
         </div>
-        <UserInfo />
-        <FollowerList />
+        <div className="users">
+          <h3>My Info</h3>
+          <UserInfo />
+          <h3>My Followers</h3>
+          <FollowerList />
+        </div>
       </div>
     );
   }

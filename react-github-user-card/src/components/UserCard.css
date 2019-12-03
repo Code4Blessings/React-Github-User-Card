@@ -1,3 +1,5 @@
+/* UserCard */
+
 .cards {
   width: 100%;
 }
@@ -32,4 +34,17 @@
   font-size: 1.8rem;
   font-style: italic;
   margin: 3px 0 10px;
+}
+
+/* FollowerCard */
+
+.follower-card-info .u-name {
+  font-size: 2.8rem;
+  font-style: italic;
+  margin: 3px 0 10px;
+}
+
+.follower-card-info p {
+  font-size: 2.4rem;
+  margin-bottom: 3px;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import "./UserCard.css"
-import Styled from "styled-components";
+
 
 const UserCard = (props) => {
   return (
