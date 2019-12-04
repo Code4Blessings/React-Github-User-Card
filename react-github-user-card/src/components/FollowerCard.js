@@ -1,5 +1,4 @@
 import React from 'react';
-import "./UserCard.css"
 import Styled from 'styled-components';
 
 const Card = Styled.div`
